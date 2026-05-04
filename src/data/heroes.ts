@@ -35,6 +35,44 @@ export interface District {
   heroes: Hero[];
 }
 
+// Helper to keep the long district list compact. Cycles page backgrounds.
+const PAGE_BGS = ["bg-gradient-warm", "bg-gradient-sunset"];
+type MkHeroInput = {
+  id: string;
+  emoji: string;
+  name: [string, string];
+  title: [string, string];
+  era: string;
+  pages: Array<[string, string, string]>; // [en, kn, emoji]
+  quiz: Array<[string, string, [string, string, string], [string, string, string], number]>; // [qEn,qKn,enOpts,knOpts,answerIdx]
+  memorial: [string, string, string, string, string, string, string]; // nameEn,nameKn,placeEn,placeKn,descEn,descKn,mapsQuery
+};
+function mkHero(h: MkHeroInput): Hero {
+  return {
+    id: h.id,
+    emoji: h.emoji,
+    name: { en: h.name[0], kn: h.name[1] },
+    title: { en: h.title[0], kn: h.title[1] },
+    era: h.era,
+    pages: h.pages.map(([en, kn, emoji], i) => ({
+      text: { en, kn },
+      emoji,
+      bg: PAGE_BGS[i % PAGE_BGS.length],
+    })),
+    quiz: h.quiz.map(([qEn, qKn, enOpts, knOpts, answerIndex]) => ({
+      question: { en: qEn, kn: qKn },
+      options: enOpts.map((en, i) => ({ en, kn: knOpts[i] })),
+      answerIndex,
+    })),
+    memorial: {
+      name: { en: h.memorial[0], kn: h.memorial[1] },
+      place: { en: h.memorial[2], kn: h.memorial[3] },
+      description: { en: h.memorial[4], kn: h.memorial[5] },
+      mapsQuery: h.memorial[6],
+    },
+  };
+}
+
 export const DISTRICTS: District[] = [
   {
     id: "belagavi",
