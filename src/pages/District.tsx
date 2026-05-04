@@ -27,6 +27,13 @@ export default function District() {
 
         <h3 className="mb-3 px-1 text-lg font-extrabold">{tr.heroes}</h3>
         <div className="space-y-3">
+          {district.heroes.length === 0 && (
+            <Card className="rounded-2xl border-2 border-dashed border-border bg-card/60 p-6 text-center text-muted-foreground">
+              {lang === "en"
+                ? "Hero stories for this district are coming soon. 🪔"
+                : "ಈ ಜಿಲ್ಲೆಯ ವೀರರ ಕಥೆಗಳು ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿವೆ. 🪔"}
+            </Card>
+          )}
           {district.heroes.map((h) => {
             const earned = badges.includes(h.id);
             return (
