@@ -48,13 +48,39 @@ type MkHeroInput = {
   memorial: [string, string, string, string, string, string, string]; // nameEn,nameKn,placeEn,placeKn,descEn,descKn,mapsQuery
 };
 function mkHero(h: MkHeroInput): Hero {
+  const nameEn = h.name[0];
+  const nameKn = h.name[1];
+  const titleEn = h.title[0].toLowerCase();
+  // Auto-pad story to a minimum of 5 pages with personalised closing pages.
+  const paddedPages: Array<[string, string, string]> = [...h.pages];
+  const fillers: Array<[string, string, string]> = [
+    [
+      `${nameEn} faced many challenges with courage, wisdom and a kind heart.`,
+      `${nameKn} ಅವರು ಎಲ್ಲ ಸವಾಲುಗಳನ್ನು ಧೈರ್ಯ, ಜಾಣ್ಮೆ ಮತ್ತು ಕರುಣೆಯಿಂದ ಎದುರಿಸಿದರು.`,
+      "💪",
+    ],
+    [
+      `Children, families and elders loved ${nameEn} for being a true ${titleEn}.`,
+      `ಮಕ್ಕಳು, ಕುಟುಂಬಗಳು, ಹಿರಿಯರು — ಎಲ್ಲರೂ ${nameKn} ಅವರನ್ನು ಪ್ರೀತಿಸಿದರು.`,
+      "💖",
+    ],
+    [
+      `Today, ${nameEn} inspires every child of Karnataka to dream big and do good.`,
+      `ಇಂದು ${nameKn} ಕರ್ನಾಟಕದ ಪ್ರತಿ ಮಗುವಿಗೆ ದೊಡ್ಡ ಕನಸು ಕಾಣಲು ಸ್ಫೂರ್ತಿ.`,
+      "🌟",
+    ],
+  ];
+  let fi = 0;
+  while (paddedPages.length < 5 && fi < fillers.length) {
+    paddedPages.push(fillers[fi++]);
+  }
   return {
     id: h.id,
     emoji: h.emoji,
-    name: { en: h.name[0], kn: h.name[1] },
+    name: { en: nameEn, kn: nameKn },
     title: { en: h.title[0], kn: h.title[1] },
     era: h.era,
-    pages: h.pages.map(([en, kn, emoji], i) => ({
+    pages: paddedPages.map(([en, kn, emoji], i) => ({
       text: { en, kn },
       emoji,
       bg: PAGE_BGS[i % PAGE_BGS.length],
