@@ -181,6 +181,70 @@ export const DISTRICTS: District[] = [
             ],
             answerIndex: 2,
           },
+        
+          {
+            question: { en: 'In which year was Chennamma born?', kn: 'ಚೆನ್ನಮ್ಮ ಯಾವ ವರ್ಷ ಜನಿಸಿದರು?' },
+            options: [
+              { en: '1778', kn: '೧೭೭೮' },
+              { en: '1857', kn: '೧೮೫೭' },
+              { en: '1900', kn: '೧೯೦೦' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'Her birth village was…', kn: 'ಜನ್ಮಸ್ಥಳ?' },
+            options: [
+              { en: 'Kakati', kn: 'ಕಾಕತಿ' },
+              { en: 'Kittur', kn: 'ಕಿತ್ತೂರು' },
+              { en: 'Hampi', kn: 'ಹಂಪಿ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'In which year did she revolt?', kn: 'ಯಾವಾಗ ದಂಗೆ?' },
+            options: [
+              { en: '1824', kn: '೧೮೨೪' },
+              { en: '1757', kn: '೧೭೫೭' },
+              { en: '1947', kn: '೧೯೪೭' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'Which British officer was killed?', kn: 'ಕೊಲ್ಲಲ್ಪಟ್ಟ ಅಧಿಕಾರಿ?' },
+            options: [
+              { en: 'Thackeray', kn: 'ಥ್ಯಾಕ್ರೆ' },
+              { en: 'Clive', kn: 'ಕ್ಲೈವ್' },
+              { en: 'Dalhousie', kn: 'ಡಲ್ಹೌಸಿ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'She was jailed at…', kn: 'ಎಲ್ಲಿ ಸೆರೆವಾಸ?' },
+            options: [
+              { en: 'Bailhongal', kn: 'ಬೈಲಹೊಂಗಲ' },
+              { en: 'Bidar', kn: 'ಬೀದರ್' },
+              { en: 'Mysuru', kn: 'ಮೈಸೂರು' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'Rule used by British to seize Kittur?', kn: 'ಬ್ರಿಟಿಷರ ನಿಯಮ?' },
+            options: [
+              { en: 'Doctrine of Lapse', kn: 'ದತ್ತು ಪುತ್ರನಿಗೆ ಹಕ್ಕಿಲ್ಲ' },
+              { en: 'Salt Tax', kn: 'ಉಪ್ಪು ತೆರಿಗೆ' },
+              { en: 'Rowlatt', kn: 'ರೌಲತ್' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'She is a symbol of…', kn: 'ಸಂಕೇತ?' },
+            options: [
+              { en: "Women's courage", kn: 'ಮಹಿಳಾ ಶೌರ್ಯ' },
+              { en: 'Trade', kn: 'ವ್ಯಾಪಾರ' },
+              { en: 'Music', kn: 'ಸಂಗೀತ' },
+            ],
+            answerIndex: 0,
+          },
         ],
         memorial: {
           name: { en: "Kittur Fort & Chennamma Statue", kn: "ಕಿತ್ತೂರು ಕೋಟೆ ಮತ್ತು ಚೆನ್ನಮ್ಮ ಪ್ರತಿಮೆ" },
@@ -274,6 +338,70 @@ export const DISTRICTS: District[] = [
               { en: "Constitution", kn: "ಸಂವಿಧಾನ" },
             ],
             answerIndex: 1,
+          },
+        
+          {
+            question: { en: 'Kuvempu was born in…', kn: 'ಜನ್ಮಸ್ಥಳ?' },
+            options: [
+              { en: 'Kuppalli', kn: 'ಕುಪ್ಪಳಿ' },
+              { en: 'Mysuru', kn: 'ಮೈಸೂರು' },
+              { en: 'Hampi', kn: 'ಹಂಪಿ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'In which year was he born?', kn: 'ಜನ್ಮ ವರ್ಷ?' },
+            options: [
+              { en: '1904', kn: '೧೯೦೪' },
+              { en: '1850', kn: '೧೮೫೦' },
+              { en: '1947', kn: '೧೯೪೭' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'His epic on Ramayana is…', kn: 'ರಾಮಾಯಣ ಮಹಾಕಾವ್ಯ?' },
+            options: [
+              { en: 'Sri Ramayana Darshanam', kn: 'ಶ್ರೀ ರಾಮಾಯಣ ದರ್ಶನಂ' },
+              { en: 'Mahabharata', kn: 'ಮಹಾಭಾರತ' },
+              { en: 'Vachana', kn: 'ವಚನ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: "Karnataka's state anthem starts with…", kn: 'ನಾಡಗೀತೆ?' },
+            options: [
+              { en: 'Jaya Bharata Jananiya', kn: 'ಜಯ ಭಾರತ ಜನನಿಯ' },
+              { en: 'Vande Mataram', kn: 'ವಂದೇ ಮಾತರಂ' },
+              { en: 'Sare Jahan', kn: 'ಸಾರೆ ಜಹಾ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He passed away in…', kn: 'ಮರಣ ವರ್ಷ?' },
+            options: [
+              { en: '1994', kn: '೧೯೯೪' },
+              { en: '1947', kn: '೧೯೪೭' },
+              { en: '1850', kn: '೧೮೫೦' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: "His message is 'Vishwa…'", kn: 'ಸಂದೇಶ?' },
+            options: [
+              { en: 'Manava', kn: 'ಮಾನವ' },
+              { en: 'Yuddha', kn: 'ಯುದ್ಧ' },
+              { en: 'Dhana', kn: 'ಧನ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'His memorial rock is called…', kn: 'ಸ್ಮಾರಕ?' },
+            options: [
+              { en: 'Kavishaila', kn: 'ಕವಿಶೈಲ' },
+              { en: 'Hampi', kn: 'ಹಂಪಿ' },
+              { en: 'Gol Gumbaz', kn: 'ಗೋಲ್ ಗುಂಬಜ್' },
+            ],
+            answerIndex: 0,
           },
         ],
         memorial: {
@@ -369,6 +497,70 @@ export const DISTRICTS: District[] = [
             ],
             answerIndex: 1,
           },
+        
+          {
+            question: { en: 'Basavanna was born in…', kn: 'ಜನ್ಮಸ್ಥಳ?' },
+            options: [
+              { en: 'Basavana Bagewadi', kn: 'ಬಸವನ ಬಾಗೇವಾಡಿ' },
+              { en: 'Hampi', kn: 'ಹಂಪಿ' },
+              { en: 'Mysuru', kn: 'ಮೈಸೂರು' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He lived in which century?', kn: 'ಶತಮಾನ?' },
+            options: [
+              { en: '12th', kn: '೧೨ನೇ' },
+              { en: '18th', kn: '೧೮ನೇ' },
+              { en: '20th', kn: '೨೦ನೇ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: "Famous saying 'Kayakave…'", kn: "'ಕಾಯಕವೇ...'" },
+            options: [
+              { en: 'Kailasa', kn: 'ಕೈಲಾಸ' },
+              { en: 'Yuddha', kn: 'ಯುದ್ಧ' },
+              { en: 'Dhana', kn: 'ಧನ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He served which king?', kn: 'ಯಾವ ರಾಜ?' },
+            options: [
+              { en: 'Bijjala II', kn: 'ಬಿಜ್ಜಳ' },
+              { en: 'Tipu', kn: 'ಟಿಪ್ಪು' },
+              { en: 'Krishnadevaraya', kn: 'ಕೃಷ್ಣದೇವರಾಯ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He attained enlightenment at…', kn: 'ಜ್ಞಾನೋದಯ?' },
+            options: [
+              { en: 'Kudalasangama', kn: 'ಕೂಡಲಸಂಗಮ' },
+              { en: 'Hampi', kn: 'ಹಂಪಿ' },
+              { en: 'Belur', kn: 'ಬೇಲೂರು' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He was the founder of…', kn: 'ಸ್ಥಾಪಕ?' },
+            options: [
+              { en: 'Lingayat tradition', kn: 'ಲಿಂಗಾಯತ' },
+              { en: 'Jainism', kn: 'ಜೈನ' },
+              { en: 'Sikhism', kn: 'ಸಿಖ್' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'Vachanas were written in…', kn: 'ವಚನಗಳ ಭಾಷೆ?' },
+            options: [
+              { en: 'Kannada', kn: 'ಕನ್ನಡ' },
+              { en: 'Sanskrit', kn: 'ಸಂಸ್ಕೃತ' },
+              { en: 'Tamil', kn: 'ತಮಿಳು' },
+            ],
+            answerIndex: 0,
+          },
         ],
         memorial: {
           name: { en: "Basavanna Birthplace Temple", kn: "ಬಸವಣ್ಣ ಜನ್ಮಸ್ಥಳ ದೇವಾಲಯ" },
@@ -463,6 +655,70 @@ export const DISTRICTS: District[] = [
             ],
             answerIndex: 0,
           },
+        
+          {
+            question: { en: "Tipu's father was…", kn: 'ತಂದೆ?' },
+            options: [
+              { en: 'Hyder Ali', kn: 'ಹೈದರ್ ಅಲಿ' },
+              { en: 'Akbar', kn: 'ಅಕ್ಬರ್' },
+              { en: 'Shivaji', kn: 'ಶಿವಾಜಿ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He was born in…', kn: 'ಜನ್ಮಸ್ಥಳ?' },
+            options: [
+              { en: 'Devanahalli', kn: 'ದೇವನಹಳ್ಳಿ' },
+              { en: 'Mysuru', kn: 'ಮೈಸೂರು' },
+              { en: 'Bidar', kn: 'ಬೀದರ್' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'His capital fort was…', kn: 'ಕೋಟೆ?' },
+            options: [
+              { en: 'Srirangapatna', kn: 'ಶ್ರೀರಂಗಪಟ್ಟಣ' },
+              { en: 'Bidar', kn: 'ಬೀದರ್' },
+              { en: 'Hampi', kn: 'ಹಂಪಿ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He died in the year…', kn: 'ಮರಣ ವರ್ಷ?' },
+            options: [
+              { en: '1799', kn: '೧೭೯೯' },
+              { en: '1857', kn: '೧೮೫೭' },
+              { en: '1947', kn: '೧೯೪೭' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He fought how many Anglo-Mysore wars?', kn: 'ಎಷ್ಟು ಯುದ್ಧ?' },
+            options: [
+              { en: 'Four', kn: 'ನಾಲ್ಕು' },
+              { en: 'Two', kn: 'ಎರಡು' },
+              { en: 'Ten', kn: 'ಹತ್ತು' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He introduced which industry?', kn: 'ಯಾವ ಉದ್ಯಮ?' },
+            options: [
+              { en: 'Silk (sericulture)', kn: 'ರೇಷ್ಮೆ' },
+              { en: 'Tea', kn: 'ಚಹಾ' },
+              { en: 'Cotton', kn: 'ಹತ್ತಿ' },
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: { en: 'He became Sultan in…', kn: 'ಸುಲ್ತಾನನಾದ ವರ್ಷ?' },
+            options: [
+              { en: '1782', kn: '೧೭೮೨' },
+              { en: '1900', kn: '೧೯೦೦' },
+              { en: '1700', kn: '೧೭೦೦' },
+            ],
+            answerIndex: 0,
+          },
         ],
         memorial: {
           name: { en: "Srirangapatna Fort & Gumbaz", kn: "ಶ್ರೀರಂಗಪಟ್ಟಣ ಕೋಟೆ ಮತ್ತು ಗುಂಬಜ್" },
@@ -493,6 +749,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Which empire did he rule?", "ಯಾವ ಸಾಮ್ರಾಜ್ಯ?", ["Vijayanagara", "Mauryan", "Chola"], ["ವಿಜಯನಗರ", "ಮೌರ್ಯ", "ಚೋಳ"], 0],
         ["His capital city was…", "ಅವನ ರಾಜಧಾನಿ...", ["Hampi", "Delhi", "Hubballi"], ["ಹಂಪಿ", "ದೆಹಲಿ", "ಹುಬ್ಬಳ್ಳಿ"], 0],
+      
+        ['He belonged to which dynasty?', 'ವಂಶ?', ['Tuluva', 'Hoysala', 'Chola'], ['ತುಳುವ', 'ಹೊಯ್ಸಳ', 'ಚೋಳ'], 0],
+        ['He was crowned in…', 'ಪಟ್ಟಾಭಿಷೇಕ?', ['1509', '1300', '1700'], ['೧೫೦೯', '೧೩೦೦', '೧೭೦೦'], 0],
+        ['He died in…', 'ಮರಣ ವರ್ಷ?', ['1529', '1700', '1857'], ['೧೫೨೯', '೧೭೦೦', '೧೮೫೭'], 0],
+        ['Eight court poets were called…', 'ಎಂಟು ಕವಿಗಳು?', ['Ashtadiggajas', 'Vachanakaras', 'Dasaru'], ['ಅಷ್ಟದಿಗ್ಗಜರು', 'ವಚನಕಾರರು', 'ದಾಸರು'], 0],
+        ['His Telugu work is…', 'ತೆಲುಗು ಕೃತಿ?', ['Amuktamalyada', 'Ramayana', 'Vachana'], ['ಆಮುಕ್ತಮಾಲ್ಯದ', 'ರಾಮಾಯಣ', 'ವಚನ'], 0],
+        ['He defeated which sultans?', 'ಯಾರನ್ನು ಸೋಲಿಸಿದ?', ['Bahmani', 'Mughals', 'British'], ['ಬಹಮನಿ', 'ಮೊಘಲ್', 'ಬ್ರಿಟಿಷ್'], 0],
+        ['Hampi sits on which river?', 'ಯಾವ ನದಿ?', ['Tungabhadra', 'Kaveri', 'Krishna'], ['ತುಂಗಭದ್ರಾ', 'ಕಾವೇರಿ', 'ಕೃಷ್ಣಾ'], 0],
+        ['He allied with which Europeans?', 'ಯಾವ ಯುರೋಪಿಯನ್ನರು?', ['Portuguese', 'British', 'French'], ['ಪೋರ್ಚುಗೀಸರು', 'ಬ್ರಿಟಿಷ್', 'ಫ್ರೆಂಚ್'], 0],
       ],
       memorial: ["Hampi Ruins (UNESCO)", "ಹಂಪಿ ಅವಶೇಷಗಳು", "Hampi, near Ballari", "ಹಂಪಿ, ಬಳ್ಳಾರಿ ಬಳಿ", "The grand ruins of Vijayanagara stand at Hampi.", "ವಿಜಯನಗರದ ಭವ್ಯ ಅವಶೇಷಗಳು ಹಂಪಿಯಲ್ಲಿವೆ.", "Hampi Karnataka"],
     })],
@@ -514,6 +779,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["What job did he hold in 1996?", "1996ರಲ್ಲಿ ಹುದ್ದೆ?", ["Prime Minister", "President", "Governor"], ["ಪ್ರಧಾನಿ", "ರಾಷ್ಟ್ರಪತಿ", "ರಾಜ್ಯಪಾಲ"], 0],
         ["His family came from…", "ಅವರ ಕುಟುಂಬ?", ["Farmers", "Soldiers", "Traders"], ["ರೈತರು", "ಸೈನಿಕರು", "ವ್ಯಾಪಾರಿ"], 0],
+      
+        ['Born in which year?', 'ಜನ್ಮ ವರ್ಷ?', ['1933', '1900', '1947'], ['೧೯೩೩', '೧೯೦೦', '೧೯೪೭'], 0],
+        ['His birth village?', 'ಗ್ರಾಮ?', ['Haradanahalli', 'Hampi', 'Bidar'], ['ಹರದನಹಳ್ಳಿ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['He studied to become a…', 'ಶಿಕ್ಷಣ?', ['Civil engineer', 'Doctor', 'Lawyer'], ['ಸಿವಿಲ್ ಎಂಜಿನಿಯರ್', 'ವೈದ್ಯ', 'ವಕೀಲ'], 0],
+        ['CM of Karnataka in…', 'ಕರ್ನಾಟಕ ಮುಖ್ಯಮಂತ್ರಿ?', ['1994', '1980', '2010'], ['೧೯೯೪', '೧೯೮೦', '೨೦೧೦'], 0],
+        ['Which PM number was he?', 'ಎಷ್ಟನೇ ಪ್ರಧಾನಿ?', ['11th', '2nd', '20th'], ['೧೧ನೇ', '೨ನೇ', '೨೦ನೇ'], 0],
+        ['His party is…', 'ಪಕ್ಷ?', ['JD(S)', 'BJP', 'Congress'], ['ಜೆಡಿ(ಎಸ್)', 'ಬಿಜೆಪಿ', 'ಕಾಂಗ್ರೆಸ್'], 0],
+        ['He is from which district?', 'ಜಿಲ್ಲೆ?', ['Hassan', 'Mysuru', 'Bidar'], ['ಹಾಸನ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ["He is called 'son of…'", 'ಮಗ?', ['Soil', 'Sea', 'Sky'], ['ಮಣ್ಣಿನ', 'ಸಮುದ್ರ', 'ಆಕಾಶ'], 0],
       ],
       memorial: ["Haradanahalli Village", "ಹರದನಹಳ್ಳಿ", "Holenarasipura", "ಹೊಳೆನರಸೀಪುರ", "His birth village, a symbol of rural pride.", "ಗ್ರಾಮೀಣ ಹೆಮ್ಮೆಯ ಸಂಕೇತ.", "Haradanahalli Karnataka"],
     })],
@@ -535,6 +809,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Which city did he found?", "ಯಾವ ನಗರ?", ["Bengaluru", "Mysuru", "Hubballi"], ["ಬೆಂಗಳೂರು", "ಮೈಸೂರು", "ಹುಬ್ಬಳ್ಳಿ"], 0],
         ["He built four…", "ನಾಲ್ಕು ಏನು?", ["Watch towers", "Palaces", "Bridges"], ["ಗೋಪುರಗಳು", "ಅರಮನೆ", "ಸೇತುವೆ"], 0],
+      
+        ['Born in which year?', 'ಜನ್ಮ ವರ್ಷ?', ['1510', '1700', '1900'], ['೧೫೧೦', '೧೭೦೦', '೧೯೦೦'], 0],
+        ['Bengaluru founded in…', 'ಬೆಂಗಳೂರು ಸ್ಥಾಪನೆ?', ['1537', '1700', '1900'], ['೧೫೩೭', '೧೭೦೦', '೧೯೦೦'], 0],
+        ['He served which empire?', 'ಯಾವ ಸಾಮ್ರಾಜ್ಯ?', ['Vijayanagara', 'Mughal', 'British'], ['ವಿಜಯನಗರ', 'ಮೊಘಲ್', 'ಬ್ರಿಟಿಷ್'], 0],
+        ["Title 'Nadaprabhu' means…", 'ನಾಡಪ್ರಭು?', ['Lord of land', 'Soldier', 'Poet'], ['ನಾಡಿನ ಒಡೆಯ', 'ಸೈನಿಕ', 'ಕವಿ'], 0],
+        ['He marked city using…', 'ಗಡಿ ಗುರುತು?', ['Bullocks ploughing', 'Soldiers', 'Stones'], ['ಎತ್ತುಗಳ ನೇಗಿಲು', 'ಸೈನಿಕ', 'ಕಲ್ಲು'], 0],
+        ["Bengaluru's old market is called…", 'ಹಳೆಯ ಮಾರುಕಟ್ಟೆ?', ['Pete', 'Mall', 'Chowk'], ['ಪೇಟೆ', 'ಮಾಲ್', 'ಚೌಕ'], 0],
+        ['First fort was built of…', 'ಮೊದಲ ಕೋಟೆ?', ['Mud', 'Steel', 'Glass'], ['ಮಣ್ಣು', 'ಉಕ್ಕು', 'ಗಾಜು'], 0],
+        ['Bengaluru airport is named after…', 'ವಿಮಾನ ನಿಲ್ದಾಣ?', ['Kempegowda', 'Tipu', 'Kuvempu'], ['ಕೆಂಪೇಗೌಡ', 'ಟಿಪ್ಪು', 'ಕುವೆಂಪು'], 0],
       ],
       memorial: ["Kempegowda Statue", "ಕೆಂಪೇಗೌಡ ಪ್ರತಿಮೆ", "KIA Airport, Bengaluru", "ಕೆಂಪೇಗೌಡ ವಿಮಾನ ನಿಲ್ದಾಣ", "A 108-foot statue greets visitors near the airport.", "108 ಅಡಿ ಎತ್ತರದ ಪ್ರತಿಮೆ.", "Statue of Prosperity Kempegowda Bengaluru"],
     })],
@@ -556,6 +839,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Which kingdom did he serve?", "ಯಾವ ರಾಜ್ಯ?", ["Bahmani", "Chola", "Maratha"], ["ಬಹಮನಿ", "ಚೋಳ", "ಮರಾಠ"], 0],
         ["He built a famous…", "ಏನು ಕಟ್ಟಿದನು?", ["Madrasa", "Fort", "Bridge"], ["ಮದ್ರಸಾ", "ಕೋಟೆ", "ಸೇತುವೆ"], 0],
+      
+        ['Born in which country?', 'ಜನ್ಮ ದೇಶ?', ['Persia', 'India', 'China'], ['ಪರ್ಷಿಯಾ', 'ಭಾರತ', 'ಚೀನಾ'], 0],
+        ['He served which sultanate?', 'ಯಾವ ಸುಲ್ತಾನತೆ?', ['Bahmani', 'Mughal', 'Maratha'], ['ಬಹಮನಿ', 'ಮೊಘಲ್', 'ಮರಾಠ'], 0],
+        ['Built famous madrasa at…', 'ಮದ್ರಸಾ ಎಲ್ಲಿ?', ['Bidar', 'Hampi', 'Bengaluru'], ['ಬೀದರ್', 'ಹಂಪಿ', 'ಬೆಂಗಳೂರು'], 0],
+        ['Madrasa built in year…', 'ಯಾವ ವರ್ಷ?', ['1472', '1300', '1800'], ['೧೪೭೨', '೧೩೦೦', '೧೮೦೦'], 0],
+        ['His role at court?', 'ಹುದ್ದೆ?', ['Wazir/PM', 'King', 'Soldier'], ['ವಜೀರ್', 'ರಾಜ', 'ಸೈನಿಕ'], 0],
+        ['Sultan he served?', 'ಯಾರ ಆಸ್ಥಾನ?', ['Muhammad Shah III', 'Akbar', 'Tipu'], ['ಮುಹಮ್ಮದ್ ಶಾ III', 'ಅಕ್ಬರ್', 'ಟಿಪ್ಪು'], 0],
+        ['Madrasa was a centre of…', 'ಯಾವುದರ ಕೇಂದ್ರ?', ['Knowledge', 'Trade', 'War'], ['ಜ್ಞಾನ', 'ವ್ಯಾಪಾರ', 'ಯುದ್ಧ'], 0],
+        ['Born in year…', 'ಜನ್ಮ ವರ್ಷ?', ['1411', '1700', '1900'], ['೧೪೧೧', '೧೭೦೦', '೧೯೦೦'], 0],
       ],
       memorial: ["Mahmud Gawan Madrasa", "ಮಹಮ್ಮದ್ ಗವಾನ್ ಮದ್ರಸಾ", "Bidar town", "ಬೀದರ್", "A magnificent 15th-century learning centre.", "15ನೇ ಶತಮಾನದ ಜ್ಞಾನ ಕೇಂದ್ರ.", "Mahmud Gawan Madrasa Bidar"],
     })],
@@ -577,6 +869,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He is the saint of…", "ಯಾವುದರ ಸಂತ?", ["The hills", "The sea", "The desert"], ["ಬೆಟ್ಟ", "ಸಮುದ್ರ", "ಮರುಭೂಮಿ"], 0],
         ["He tamed a wild…", "ಏನನ್ನು ಪಳಗಿಸಿದರು?", ["Tiger", "Eagle", "Snake"], ["ಹುಲಿ", "ಗರುಡ", "ಹಾವು"], 0],
+      
+        ['He lived in which century?', 'ಶತಮಾನ?', ['15th', '20th', '5th'], ['೧೫ನೇ', '೨೦ನೇ', '೫ನೇ'], 0],
+        ['Hills named after him?', 'ಬೆಟ್ಟ?', ['Male Mahadeshwara', 'Nandi', 'Chamundi'], ['ಮಲೆ ಮಹದೇಶ್ವರ', 'ನಂದಿ', 'ಚಾಮುಂಡಿ'], 0],
+        ['In which district?', 'ಜಿಲ್ಲೆ?', ['Chamarajanagar', 'Mysuru', 'Hassan'], ['ಚಾಮರಾಜನಗರ', 'ಮೈಸೂರು', 'ಹಾಸನ'], 0],
+        ['Tradition of his songs?', 'ಪರಂಪರೆ?', ['Male Mahadeshwara Kavya', 'Vachana', 'Yakshagana'], ['ಮಲೆ ಮಹದೇಶ್ವರ ಕಾವ್ಯ', 'ವಚನ', 'ಯಕ್ಷಗಾನ'], 0],
+        ['He is a saint of…', 'ಸಂತ?', ['Shaiva tradition', 'Vaishnava', 'Jain'], ['ಶೈವ', 'ವೈಷ್ಣವ', 'ಜೈನ'], 0],
+        ['He tamed which animal?', 'ಪ್ರಾಣಿ?', ['Tiger', 'Lion', 'Bear'], ['ಹುಲಿ', 'ಸಿಂಹ', 'ಕರಡಿ'], 0],
+        ['Famous for performing…', 'ಪ್ರಸಿದ್ಧಿ?', ['Miracles', 'Wars', 'Trade'], ['ಪವಾಡ', 'ಯುದ್ಧ', 'ವ್ಯಾಪಾರ'], 0],
+        ['Devotees visit him in…', 'ಭಕ್ತರ ಯಾತ್ರೆ?', ['Lakhs', 'Tens', 'Hundreds'], ['ಲಕ್ಷಗಟ್ಟಲೆ', 'ಹತ್ತಾರು', 'ನೂರಾರು'], 0],
       ],
       memorial: ["Male Mahadeshwara Temple", "ಮಲೆ ಮಹದೇಶ್ವರ ದೇವಾಲಯ", "MM Hills, Chamarajanagar", "ಎಂಎಂ ಬೆಟ್ಟ", "A famous hill shrine in the Western Ghats.", "ಪಶ್ಚಿಮ ಘಟ್ಟಗಳಲ್ಲಿ ಪ್ರಸಿದ್ಧ ದೇವಾಲಯ.", "Male Mahadeshwara Hills temple"],
     })],
@@ -598,6 +899,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["His profession was…", "ವೃತ್ತಿ?", ["Engineer", "Doctor", "Poet"], ["ಎಂಜಿನಿಯರ್", "ವೈದ್ಯ", "ಕವಿ"], 0],
         ["Which dam did he plan?", "ಯಾವ ಅಣೆಕಟ್ಟು?", ["KRS", "Bhakra", "Hirakud"], ["ಕೆಆರ್‌ಎಸ್", "ಭಾಕ್ರಾ", "ಹಿರಾಕುಡ್"], 0],
+      
+        ['Born in village…', 'ಜನ್ಮ ಗ್ರಾಮ?', ['Muddenahalli', 'Hampi', 'Bidar'], ['ಮುದ್ದೇನಹಳ್ಳಿ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['Born in year…', 'ಜನ್ಮ ವರ್ಷ?', ['1860', '1800', '1900'], ['೧೮೬೦', '೧೮೦೦', '೧೯೦೦'], 0],
+        ['He lived to age…', 'ವಯಸ್ಸು?', ['101', '60', '80'], ['೧೦೧', '೬೦', '೮೦'], 0],
+        ['Diwan of Mysore from…', 'ಮೈಸೂರು ದಿವಾನ್?', ['1912', '1800', '1947'], ['೧೯೧೨', '೧೮೦೦', '೧೯೪೭'], 0],
+        ['Awarded Bharat Ratna in…', 'ಭಾರತ ರತ್ನ?', ['1955', '1900', '1980'], ['೧೯೫೫', '೧೯೦೦', '೧೯೮೦'], 0],
+        ['KRS dam is on river…', 'ಯಾವ ನದಿ?', ['Kaveri', 'Krishna', 'Tunga'], ['ಕಾವೇರಿ', 'ಕೃಷ್ಣಾ', 'ತುಂಗಾ'], 0],
+        ['His birthday is celebrated as…', 'ಜನ್ಮದಿನ?', ["Engineers' Day", "Teachers' Day", "Doctors' Day"], ['ಎಂಜಿನಿಯರ್ಸ್ ಡೇ', 'ಶಿಕ್ಷಕರ ದಿನ', 'ವೈದ್ಯರ ದಿನ'], 0],
+        ['He served as Diwan of…', 'ದಿವಾನ್?', ['Mysore', 'Hyderabad', 'Travancore'], ['ಮೈಸೂರು', 'ಹೈದರಾಬಾದ್', 'ತಿರುವಾಂಕೂರ್'], 0],
       ],
       memorial: ["Visvesvaraya Memorial", "ವಿಶ್ವೇಶ್ವರಯ್ಯ ಸ್ಮಾರಕ", "Muddenahalli, Chikkaballapur", "ಮುದ್ದೇನಹಳ್ಳಿ", "His birth-house museum displays his medals and tools.", "ಅವರ ಜನ್ಮಮನೆ ವಸ್ತುಸಂಗ್ರಹಾಲಯ.", "Visvesvaraya Memorial Muddenahalli"],
     })],
@@ -619,6 +929,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He brought what to India?", "ಏನು ತಂದರು?", ["Coffee", "Tea", "Cocoa"], ["ಕಾಫಿ", "ಚಹಾ", "ಕೋಕೋ"], 0],
         ["From which country?", "ಯಾವ ದೇಶ?", ["Yemen", "Brazil", "Italy"], ["ಯೆಮೆನ್", "ಬ್ರೆಜಿಲ್", "ಇಟಲಿ"], 0],
+      
+        ['He brought coffee in which century?', 'ಶತಮಾನ?', ['16th', '20th', '12th'], ['೧೬ನೇ', '೨೦ನೇ', '೧೨ನೇ'], 0],
+        ['How many beans did he bring?', 'ಎಷ್ಟು ಬೀಜ?', ['Seven', 'Two', 'Hundred'], ['ಏಳು', 'ಎರಡು', 'ನೂರು'], 0],
+        ['He travelled from which port?', 'ಬಂದರು?', ['Mocha', 'Mumbai', 'Goa'], ['ಮೋಚಾ', 'ಮುಂಬೈ', 'ಗೋವಾ'], 0],
+        ['He is a saint of which faith?', 'ನಂಬಿಕೆ?', ['Sufi', 'Hindu', 'Christian'], ['ಸೂಫಿ', 'ಹಿಂದೂ', 'ಕ್ರೈಸ್ತ'], 0],
+        ['Hills now named…', 'ಬೆಟ್ಟ?', ['Baba Budangiri', 'Chandragiri', 'Nandi'], ['ಬಾಬಾ ಬುಡಂಗಿರಿ', 'ಚಂದ್ರಗಿರಿ', 'ನಂದಿ'], 0],
+        ['Originally hills were called…', 'ಮೂಲ ಹೆಸರು?', ['Chandragiri', 'Nandi', 'Mullayanagiri'], ['ಚಂದ್ರಗಿರಿ', 'ನಂದಿ', 'ಮುಳ್ಳಯ್ಯನಗಿರಿ'], 0],
+        ['Coffee planted in district…', 'ಜಿಲ್ಲೆ?', ['Chikkamagaluru', 'Mysuru', 'Bidar'], ['ಚಿಕ್ಕಮಗಳೂರು', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Number 7 was considered…', 'ಸಂಖ್ಯೆ ೭?', ['Sacred', 'Unlucky', 'Random'], ['ಪವಿತ್ರ', 'ಅಶುಭ', 'ಸಾಮಾನ್ಯ'], 0],
       ],
       memorial: ["Baba Budangiri Hills", "ಬಾಬಾ ಬುಡನ್‌ಗಿರಿ", "Chikkamagaluru", "ಚಿಕ್ಕಮಗಳೂರು", "Sacred hills covered in coffee gardens.", "ಕಾಫಿ ತೋಟಗಳ ಪವಿತ್ರ ಬೆಟ್ಟ.", "Baba Budangiri Chikkamagaluru"],
     })],
@@ -640,6 +959,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["What weapon did she use?", "ಆಯುಧ?", ["Wooden pestle", "Sword", "Bow"], ["ಒನಕೆ", "ಕತ್ತಿ", "ಬಿಲ್ಲು"], 0],
         ["Which fort did she save?", "ಯಾವ ಕೋಟೆ?", ["Chitradurga", "Kittur", "Bidar"], ["ಚಿತ್ರದುರ್ಗ", "ಕಿತ್ತೂರು", "ಬೀದರ್"], 0],
+      
+        ['She lived in which century?', 'ಶತಮಾನ?', ['18th', '12th', '20th'], ['೧೮ನೇ', '೧೨ನೇ', '೨೦ನೇ'], 0],
+        ["Her husband's name?", 'ಪತಿ?', ['Mudda Hanuma', 'Tipu', 'Hyder'], ['ಮುದ್ದ ಹನುಮ', 'ಟಿಪ್ಪು', 'ಹೈದರ್'], 0],
+        ['Enemy soldiers belonged to…', 'ಶತ್ರು?', ['Hyder Ali', 'British', 'Mughals'], ['ಹೈದರ್ ಅಲಿ', 'ಬ್ರಿಟಿಷ್', 'ಮೊಘಲ್'], 0],
+        ['She defended which fort?', 'ಯಾವ ಕೋಟೆ?', ['Chitradurga', 'Bidar', 'Hampi'], ['ಚಿತ್ರದುರ್ಗ', 'ಬೀದರ್', 'ಹಂಪಿ'], 0],
+        ['Opening in fort wall called…', 'ಬಿಂಡಿ?', ['Kindi', 'Door', 'Window'], ['ಕಿಂಡಿ', 'ಬಾಗಿಲು', 'ಕಿಟಕಿ'], 0],
+        ['Onake is used to…', 'ಒನಕೆ?', ['Pound grain', 'Cut wood', 'Carry water'], ['ಧಾನ್ಯ ಕುಟ್ಟಲು', 'ಮರ ಕಡಿಯಲು', 'ನೀರು ಸಾಗಿಸಲು'], 0],
+        ['Husband was away for…', 'ಪತಿ ಎಲ್ಲಿಗೆ?', ['Lunch', 'Battle', 'Hunt'], ['ಊಟ', 'ಯುದ್ಧ', 'ಬೇಟೆ'], 0],
+        ['She is a symbol of…', 'ಸಂಕೇತ?', ["Women's bravery", 'Music', 'Trade'], ['ಮಹಿಳಾ ಶೌರ್ಯ', 'ಸಂಗೀತ', 'ವ್ಯಾಪಾರ'], 0],
       ],
       memorial: ["Chitradurga Fort", "ಚಿತ್ರದುರ್ಗ ಕೋಟೆ", "Chitradurga", "ಚಿತ್ರದುರ್ಗ", "The famous fort still has the small hole where she fought.", "ಅವಳು ಹೋರಾಡಿದ ರಂಧ್ರ ಇಂದಿಗೂ ಇದೆ.", "Chitradurga Fort Obavva"],
     })],
@@ -661,6 +989,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Whom did she fight?", "ಯಾರ ವಿರುದ್ಧ?", ["Portuguese", "British", "French"], ["ಪೋರ್ಚುಗೀಸರು", "ಬ್ರಿಟಿಷರು", "ಫ್ರೆಂಚರು"], 0],
         ["She ruled…", "ರಾಜ್ಯ?", ["Ullal", "Hampi", "Mysuru"], ["ಉಳ್ಳಾಲ", "ಹಂಪಿ", "ಮೈಸೂರು"], 0],
+      
+        ['She belonged to which faith?', 'ಧರ್ಮ?', ['Jain', 'Hindu', 'Muslim'], ['ಜೈನ', 'ಹಿಂದೂ', 'ಮುಸ್ಲಿಂ'], 0],
+        ['Royal family of…', 'ರಾಜವಂಶ?', ['Chowta', 'Tuluva', 'Hoysala'], ['ಚೌಟ', 'ತುಳುವ', 'ಹೊಯ್ಸಳ'], 0],
+        ['She fought for how many years?', 'ಎಷ್ಟು ವರ್ಷ?', ['40+', '5', '100'], ['೪೦+', '೫', '೧೦೦'], 0],
+        ['She used what fire weapon?', 'ಬೆಂಕಿ ಆಯುಧ?', ['Fire arrows (Agnivana)', 'Cannon', 'Sword'], ['ಅಗ್ನಿಬಾಣ', 'ಫಿರಂಗಿ', 'ಕತ್ತಿ'], 0],
+        ['She ruled from…', 'ಆಳ್ವಿಕೆ?', ['Ullal', 'Hampi', 'Mysuru'], ['ಉಳ್ಳಾಲ', 'ಹಂಪಿ', 'ಮೈಸೂರು'], 0],
+        ['Her enemy controlled…', 'ಶತ್ರು ನಿಯಂತ್ರಣ?', ['Spice trade', 'Gold', 'Silk'], ['ಸಂಬಾರ ವ್ಯಾಪಾರ', 'ಚಿನ್ನ', 'ರೇಷ್ಮೆ'], 0],
+        ['She was eventually…', 'ಅಂತ್ಯ?', ['Betrayed', 'Crowned', 'Married'], ['ವಂಚಿಸಲ್ಪಟ್ಟಳು', 'ಪಟ್ಟಾಭಿಷೇಕ', 'ವಿವಾಹ'], 0],
+        ['Her district?', 'ಜಿಲ್ಲೆ?', ['Dakshina Kannada', 'Udupi', 'Bidar'], ['ದಕ್ಷಿಣ ಕನ್ನಡ', 'ಉಡುಪಿ', 'ಬೀದರ್'], 0],
       ],
       memorial: ["Rani Abbakka Statue", "ರಾಣಿ ಅಬ್ಬಕ್ಕ ಪ್ರತಿಮೆ", "Ullal, Mangaluru", "ಉಳ್ಳಾಲ", "A grand statue near the Ullal sea-shore.", "ಉಳ್ಳಾಲ ಕಡಲತೀರದ ಪ್ರತಿಮೆ.", "Rani Abbakka statue Ullal"],
     })],
@@ -682,6 +1019,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["His position?", "ಹುದ್ದೆ?", ["Chief Minister", "President", "Speaker"], ["ಮುಖ್ಯಮಂತ್ರಿ", "ರಾಷ್ಟ್ರಪತಿ", "ಸಭಾಧ್ಯಕ್ಷ"], 0],
         ["He was famous for his…", "ಪ್ರಸಿದ್ಧಿ?", ["Speeches", "Paintings", "Songs"], ["ಭಾಷಣ", "ಚಿತ್ರ", "ಹಾಡು"], 0],
+      
+        ['Born in year…', 'ಜನ್ಮ ವರ್ಷ?', ['1930', '1900', '1950'], ['೧೯೩೦', '೧೯೦೦', '೧೯೫೦'], 0],
+        ['Birth village?', 'ಗ್ರಾಮ?', ['Karignur', 'Hampi', 'Bidar'], ['ಕರಿಗನೂರು', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['Profession?', 'ವೃತ್ತಿ?', ['Lawyer', 'Doctor', 'Engineer'], ['ವಕೀಲ', 'ವೈದ್ಯ', 'ಎಂಜಿನಿಯರ್'], 0],
+        ['CM number of Karnataka?', 'ಎಷ್ಟನೇ ಮುಖ್ಯಮಂತ್ರಿ?', ['15th', '2nd', '20th'], ['೧೫ನೇ', '೨ನೇ', '೨೦ನೇ'], 0],
+        ['Became CM in year…', 'ವರ್ಷ?', ['1996', '1980', '2010'], ['೧೯೯೬', '೧೯೮೦', '೨೦೧೦'], 0],
+        ['Party?', 'ಪಕ್ಷ?', ['Janata Dal', 'BJP', 'Congress'], ['ಜನತಾ ದಳ', 'ಬಿಜೆಪಿ', 'ಕಾಂಗ್ರೆಸ್'], 0],
+        ['Constituency?', 'ಕ್ಷೇತ್ರ?', ['Channagiri', 'Hampi', 'Bidar'], ['ಚನ್ನಗಿರಿ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Davanagere', 'Mysuru', 'Bidar'], ['ದಾವಣಗೆರೆ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
       ],
       memorial: ["J. H. Patel Memorial", "ಪಟೇಲ್ ಸ್ಮಾರಕ", "Karignur, Davanagere", "ಕರಿಗನೂರು", "His birth village honours his life.", "ಅವರ ಜನ್ಮ ಗ್ರಾಮ.", "JH Patel memorial Karignur"],
     })],
@@ -703,6 +1049,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["His art form?", "ಕಲೆ?", ["Hindustani vocal", "Bharatanatyam", "Painting"], ["ಹಿಂದೂಸ್ತಾನಿ ಗಾಯನ", "ಭರತನಾಟ್ಯ", "ಚಿತ್ರಕಲೆ"], 0],
         ["Which honour?", "ಯಾವ ಪ್ರಶಸ್ತಿ?", ["Bharat Ratna", "Oscar", "Grammy"], ["ಭಾರತ ರತ್ನ", "ಆಸ್ಕರ್", "ಗ್ರ್ಯಾಮಿ"], 0],
+      
+        ['Born in year…', 'ಜನ್ಮ ವರ್ಷ?', ['1922', '1900', '1950'], ['೧೯೨೨', '೧೯೦೦', '೧೯೫೦'], 0],
+        ['Born in town…', 'ಪಟ್ಟಣ?', ['Gadag', 'Hampi', 'Bidar'], ['ಗದಗ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['He ran away at age…', 'ವಯಸ್ಸು?', ['11', '18', '25'], ['೧೧', '೧೮', '೨೫'], 0],
+        ['Famous song of unity?', 'ಹಾಡು?', ['Mile Sur Mera Tumhara', 'Vande Mataram', 'Sare Jahan'], ['ಮಿಲೆ ಸುರ್', 'ವಂದೇ ಮಾತರಂ', 'ಸಾರೆ ಜಹಾ'], 0],
+        ['That song aired in year…', 'ವರ್ಷ?', ['1988', '1947', '2000'], ['೧೯೮೮', '೧೯೪೭', '೨೦೦೦'], 0],
+        ['He died in year…', 'ಮರಣ?', ['2011', '1990', '2020'], ['೨೦೧೧', '೧೯೯೦', '೨೦೨೦'], 0],
+        ['Music festival started by him?', 'ಸಂಗೀತೋತ್ಸವ?', ['Sawai Gandharva', 'Tansen', 'Dover Lane'], ['ಸವಾಯಿ ಗಂಧರ್ವ', 'ತಾನ್ಸೇನ್', 'ಡೋವರ್'], 0],
+        ['His gharana?', 'ಘರಾಣ?', ['Kirana', 'Gwalior', 'Jaipur'], ['ಕಿರಾಣಾ', 'ಗ್ವಾಲಿಯರ್', 'ಜೈಪುರ'], 0],
       ],
       memorial: ["Bhimsen Joshi Smarak", "ಭೀಮಸೇನ್ ಸ್ಮಾರಕ", "Dharwad", "ಧಾರವಾಡ", "Dharwad's music school carries his name.", "ಧಾರವಾಡದ ಸಂಗೀತ ಶಾಲೆ.", "Bhimsen Joshi memorial Dharwad"],
     })],
@@ -724,6 +1079,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Which epic did he retell?", "ಯಾವ ಕಾವ್ಯ?", ["Mahabharata", "Ramayana", "Vedas"], ["ಮಹಾಭಾರತ", "ರಾಮಾಯಣ", "ವೇದ"], 0],
         ["His real name?", "ನಿಜ ಹೆಸರು?", ["Naranappa", "Basavappa", "Puttappa"], ["ನಾರಣಪ್ಪ", "ಬಸವಪ್ಪ", "ಪುಟ್ಟಪ್ಪ"], 0],
+      
+        ['Lived in which century?', 'ಶತಮಾನ?', ['15th', '12th', '20th'], ['೧೫ನೇ', '೧೨ನೇ', '೨೦ನೇ'], 0],
+        ['Real name?', 'ನಿಜ ಹೆಸರು?', ['Naranappa', 'Basavappa', 'Puttappa'], ['ನಾರಣಪ್ಪ', 'ಬಸವಪ್ಪ', 'ಪುಟ್ಟಪ್ಪ'], 0],
+        ['Pen name means disciple of…', 'ಶಿಷ್ಯ?', ['Vyasa', 'Valmiki', 'Kalidasa'], ['ವ್ಯಾಸ', 'ವಾಲ್ಮೀಕಿ', 'ಕಾಳಿದಾಸ'], 0],
+        ['Wrote under which tree?', 'ಯಾವ ಮರ?', ['Peepal', 'Banyan', 'Mango'], ['ಅರಳಿ ಮರ', 'ಆಲ', 'ಮಾವು'], 0],
+        ['At which temple?', 'ದೇವಾಲಯ?', ['Veeranarayana', 'Krishna', 'Shiva'], ['ವೀರನಾರಾಯಣ', 'ಕೃಷ್ಣ', 'ಶಿವ'], 0],
+        ['Temple in town…', 'ಪಟ್ಟಣ?', ['Gadag', 'Hampi', 'Bidar'], ['ಗದಗ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['His epic is also called…', 'ಮಹಾಕಾವ್ಯ?', ['Gadugina Bharata', 'Pampa Bharata', 'Ranna'], ['ಗದುಗಿನ ಭಾರತ', 'ಪಂಪ ಭಾರತ', 'ರನ್ನ'], 0],
+        ['Wrote in language…', 'ಭಾಷೆ?', ['Kannada', 'Sanskrit', 'Tamil'], ['ಕನ್ನಡ', 'ಸಂಸ್ಕೃತ', 'ತಮಿಳು'], 0],
       ],
       memorial: ["Veeranarayana Temple", "ವೀರನಾರಾಯಣ ದೇವಾಲಯ", "Gadag town", "ಗದಗ", "The temple where Kumara Vyasa wrote his epic.", "ಕುಮಾರವ್ಯಾಸ ಬರೆದ ದೇವಾಲಯ.", "Veeranarayana temple Gadag"],
     })],
@@ -745,6 +1109,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He carved temples at…", "ಎಲ್ಲಿ?", ["Belur & Halebidu", "Hampi", "Badami"], ["ಬೇಲೂರು ಹಳೇಬೀಡು", "ಹಂಪಿ", "ಬಾದಾಮಿ"], 0],
         ["His art was…", "ಕಲೆ?", ["Sculpture", "Music", "Poetry"], ["ಶಿಲ್ಪಕಲೆ", "ಸಂಗೀತ", "ಕಾವ್ಯ"], 0],
+      
+        ['He worked under which empire?', 'ಸಾಮ್ರಾಜ್ಯ?', ['Hoysala', 'Vijayanagara', 'Mughal'], ['ಹೊಯ್ಸಳ', 'ವಿಜಯನಗರ', 'ಮೊಘಲ್'], 0],
+        ["Title 'Amarashilpi' means…", 'ಅರ್ಥ?', ['Immortal sculptor', 'Great king', 'Wise poet'], ['ಅಮರ ಶಿಲ್ಪಿ', 'ಮಹಾ ರಾಜ', 'ಕವಿ'], 0],
+        ['Famous temples at Belur and…', 'ಮತ್ತು…', ['Halebidu', 'Hampi', 'Badami'], ['ಹಳೇಬೀಡು', 'ಹಂಪಿ', 'ಬಾದಾಮಿ'], 0],
+        ["Son's name?", 'ಮಗ?', ['Dankanachari', 'Naranappa', 'Basava'], ['ಡಂಕನಾಚಾರಿ', 'ನಾರಣಪ್ಪ', 'ಬಸವ'], 0],
+        ['Penance done at place…', 'ಪ್ರಾಯಶ್ಚಿತ್ತ?', ['Kridapura', 'Hampi', 'Bidar'], ['ಕ್ರೀಡಾಪುರ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['Material he carved?', 'ಯಾವ ವಸ್ತು?', ['Stone', 'Wood', 'Metal'], ['ಕಲ್ಲು', 'ಮರ', 'ಲೋಹ'], 0],
+        ['Temples are in district…', 'ಜಿಲ್ಲೆ?', ['Hassan', 'Mysuru', 'Bidar'], ['ಹಾಸನ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Lesson from his story?', 'ಪಾಠ?', ['Humility', 'Greed', 'Anger'], ['ವಿನಯ', 'ಲೋಭ', 'ಕೋಪ'], 0],
       ],
       memorial: ["Chennakeshava Temple", "ಚೆನ್ನಕೇಶವ ದೇವಾಲಯ", "Belur, Hassan", "ಬೇಲೂರು", "12th-century masterpiece.", "12ನೇ ಶತಮಾನದ ಕೃತಿ.", "Chennakeshava Temple Belur"],
     })],
@@ -766,6 +1139,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He was a saint-poet of…", "ಭಾಷೆ?", ["Kannada", "Tamil", "Telugu"], ["ಕನ್ನಡ", "ತಮಿಳು", "ತೆಲುಗು"], 0],
         ["His message?", "ಸಂದೇಶ?", ["Equality", "War", "Wealth"], ["ಸಮಾನತೆ", "ಯುದ್ಧ", "ಸಂಪತ್ತು"], 0],
+      
+        ['Real name?', 'ನಿಜ ಹೆಸರು?', ['Thimmappa Nayaka', 'Naranappa', 'Puttappa'], ['ತಿಮ್ಮಪ್ಪ ನಾಯಕ', 'ನಾರಣಪ್ಪ', 'ಪುಟ್ಟಪ್ಪ'], 0],
+        ['Community?', 'ಸಮುದಾಯ?', ['Kuruba', 'Vokkaliga', 'Lingayat'], ['ಕುರುಬ', 'ಒಕ್ಕಲಿಗ', 'ಲಿಂಗಾಯತ'], 0],
+        ['Born in village…', 'ಗ್ರಾಮ?', ['Bada', 'Hampi', 'Bidar'], ['ಬಾಡ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['His teacher (guru)?', 'ಗುರು?', ['Vyasaraya', 'Madhva', 'Basava'], ['ವ್ಯಾಸರಾಯ', 'ಮಧ್ವ', 'ಬಸವ'], 0],
+        ['His songs are called…', 'ಹಾಡುಗಳು?', ['Kirtanas', 'Vachanas', 'Shlokas'], ['ಕೀರ್ತನೆ', 'ವಚನ', 'ಶ್ಲೋಕ'], 0],
+        ['Famous riddle poems?', 'ಒಗಟು?', ['Mundige', 'Tripadi', 'Choupadi'], ['ಮುಂಡಿಗೆ', 'ತ್ರಿಪದಿ', 'ಚೌಪದಿ'], 0],
+        ['Famous Udupi miracle window?', 'ಉಡುಪಿ?', ['Kanakana Kindi', 'Mukhya Dwara', 'Side Door'], ['ಕನಕನ ಕಿಂಡಿ', 'ಮುಖ್ಯ ದ್ವಾರ', 'ಪಕ್ಕದ ಬಾಗಿಲು'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Haveri', 'Mysuru', 'Bidar'], ['ಹಾವೇರಿ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
       ],
       memorial: ["Kanaka Dasa Memorial", "ಕನಕದಾಸ ಸ್ಮಾರಕ", "Bada, Haveri", "ಬಾಡ, ಹಾವೇರಿ", "His birthplace temple.", "ಜನ್ಮಸ್ಥಳ ದೇವಾಲಯ.", "Kanaka Dasa memorial Bada Haveri"],
     })],
@@ -787,6 +1169,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He served the…", "ಯಾರಿಗೆ?", ["Poor", "Kings", "Soldiers"], ["ಬಡವರಿಗೆ", "ರಾಜರು", "ಸೈನಿಕರು"], 0],
         ["Shrine is in…", "ಸಮಾಧಿ?", ["Kalaburagi", "Bidar", "Hampi"], ["ಕಲಬುರಗಿ", "ಬೀದರ್", "ಹಂಪಿ"], 0],
+      
+        ['Tradition?', 'ಪರಂಪರೆ?', ['Lingayat', 'Jain', 'Sikh'], ['ಲಿಂಗಾಯತ', 'ಜೈನ', 'ಸಿಖ್'], 0],
+        ['Famous for serving…', 'ಸೇವೆ?', ['The poor', 'Soldiers', 'Kings'], ['ಬಡವರು', 'ಸೈನಿಕ', 'ರಾಜ'], 0],
+        ['Shrine city?', 'ಸಮಾಧಿ ನಗರ?', ['Kalaburagi', 'Bidar', 'Hampi'], ['ಕಲಬುರಗಿ', 'ಬೀದರ್', 'ಹಂಪಿ'], 0],
+        ["'Sharana' means…", 'ಶರಣ?', ['Devotee', 'King', 'Soldier'], ['ಭಕ್ತ', 'ರಾಜ', 'ಸೈನಿಕ'], 0],
+        ['Annual fair held in his name?', 'ಜಾತ್ರೆ?', ['Yes', 'No', 'Sometimes'], ['ಹೌದು', 'ಇಲ್ಲ', 'ಕೆಲವೊಮ್ಮೆ'], 0],
+        ['Region of Karnataka?', 'ಪ್ರದೇಶ?', ['Kalyana Karnataka', 'Coastal', 'Malnad'], ['ಕಲ್ಯಾಣ ಕರ್ನಾಟಕ', 'ಕರಾವಳಿ', 'ಮಲೆನಾಡು'], 0],
+        ['He believed in…', 'ನಂಬಿಕೆ?', ['Service to humanity', 'War', 'Wealth'], ['ಮಾನವ ಸೇವೆ', 'ಯುದ್ಧ', 'ಸಂಪತ್ತು'], 0],
+        ['His message inspires…', 'ಸ್ಫೂರ್ತಿ?', ['Devotion & service', 'Greed', 'Anger'], ['ಭಕ್ತಿ ಸೇವೆ', 'ಲೋಭ', 'ಕೋಪ'], 0],
       ],
       memorial: ["Sharana Basaveshwara Temple", "ಶರಣ ಬಸವೇಶ್ವರ ದೇವಾಲಯ", "Kalaburagi", "ಕಲಬುರಗಿ", "A grand temple at the heart of Kalaburagi.", "ಭವ್ಯ ದೇವಾಲಯ.", "Sharana Basaveshwara Temple Kalaburagi"],
     })],
@@ -808,6 +1199,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He led which force?", "ಯಾವ ಪಡೆ?", ["Indian Army", "Navy", "Air Force"], ["ಸೇನೆ", "ನೌಕಾ", "ವಾಯು"], 0],
         ["He was the FIRST…", "ಮೊದಲ?", ["Indian Army Chief", "President", "PM"], ["ಸೇನಾ ಮುಖ್ಯಸ್ಥ", "ರಾಷ್ಟ್ರಪತಿ", "ಪ್ರಧಾನಿ"], 0],
+      
+        ['Force he led?', 'ಪಡೆ?', ['Indian Army', 'Navy', 'Air Force'], ['ಸೇನೆ', 'ನೌಕಾ', 'ವಾಯು'], 0],
+        ['First Indian to be…', 'ಮೊದಲಿಗ?', ['Army Chief', 'President', 'PM'], ['ಸೇನಾ ಮುಖ್ಯಸ್ಥ', 'ರಾಷ್ಟ್ರಪತಿ', 'ಪ್ರಧಾನಿ'], 0],
+        ['From which district?', 'ಜಿಲ್ಲೆ?', ['Kodagu', 'Mysuru', 'Bidar'], ['ಕೊಡಗು', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Highest rank held?', 'ಉನ್ನತ ಪದವಿ?', ['Field Marshal', 'Captain', 'Major'], ['ಫೀಲ್ಡ್ ಮಾರ್ಷಲ್', 'ಕ್ಯಾಪ್ಟನ್', 'ಮೇಜರ್'], 0],
+        ['Took over Indian Army in…', 'ಯಾವ ವರ್ಷ?', ['1949', '1947', '1971'], ['೧೯೪೯', '೧೯೪೭', '೧೯೭೧'], 0],
+        ['Nickname?', 'ಅಡ್ಡಹೆಸರು?', ['Kipper', 'Tiger', 'Lion'], ['ಕಿಪ್ಪರ್', 'ಹುಲಿ', 'ಸಿಂಹ'], 0],
+        ['Army Day commemorates him on…', 'ಸೇನಾ ದಿನ?', ['15 Jan', '26 Jan', '15 Aug'], ['ಜ.೧೫', 'ಜ.೨೬', 'ಆ.೧೫'], 0],
+        ['He fought in war of…', 'ಯುದ್ಧ?', ['1947 Kashmir', 'Kalinga', 'Plassey'], ['೧೯೪೭ ಕಾಶ್ಮೀರ', 'ಕಳಿಂಗ', 'ಪ್ಲಾಸಿ'], 0],
       ],
       memorial: ["Cariappa Memorial", "ಕಾರ್ಯಪ್ಪ ಸ್ಮಾರಕ", "Madikeri, Kodagu", "ಮಡಿಕೇರಿ", "His ancestral home museum.", "ಸೇನಾ ವಸ್ತುಸಂಗ್ರಹಾಲಯ.", "Cariappa memorial Madikeri"],
     })],
@@ -829,6 +1229,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["KGF stands for…", "ಕೆಜಿಎಫ್?", ["Kolar Gold Fields", "Green Forest", "Gas Field"], ["ಚಿನ್ನದ ಗಣಿ", "ಹಸಿರು ಕಾಡು", "ಅನಿಲ"], 0],
         ["They dug for…", "ಏನು?", ["Gold", "Silver", "Coal"], ["ಚಿನ್ನ", "ಬೆಳ್ಳಿ", "ಕಲ್ಲಿದ್ದಲು"], 0],
+      
+        ['KGF is in district…', 'ಜಿಲ್ಲೆ?', ['Kolar', 'Mysuru', 'Bidar'], ['ಕೋಲಾರ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Mineral mined?', 'ಖನಿಜ?', ['Gold', 'Iron', 'Coal'], ['ಚಿನ್ನ', 'ಕಬ್ಬಿಣ', 'ಕಲ್ಲಿದ್ದಲು'], 0],
+        ['Nickname of KGF?', 'ಅಡ್ಡಹೆಸರು?', ['Little England', 'Big India', 'New York'], ['ಲಿಟಲ್ ಇಂಗ್ಲೆಂಡ್', 'ಬಿಗ್ ಇಂಡಿಯಾ', 'ನ್ಯೂಯಾರ್ಕ್'], 0],
+        ['Mines first opened by…', 'ಆರಂಭಿಸಿದವರು?', ['British', 'Mughals', 'Marathas'], ['ಬ್ರಿಟಿಷ್', 'ಮೊಘಲ್', 'ಮರಾಠ'], 0],
+        ['Mines closed around…', 'ಮುಚ್ಚಿದ ವರ್ಷ?', ['2001', '1947', '1990'], ['೨೦೦೧', '೧೯೪೭', '೧೯೯೦'], 0],
+        ['Famous for very…', 'ಆಳ?', ['Deep shafts', 'Wide rivers', 'Tall trees'], ['ಆಳವಾದ ಸುರಂಗ', 'ವಿಶಾಲ ನದಿ', 'ಎತ್ತರ ಮರ'], 0],
+        ['Region in Karnataka?', 'ಪ್ರದೇಶ?', ['South', 'North', 'Coast'], ['ದಕ್ಷಿಣ', 'ಉತ್ತರ', 'ಕರಾವಳಿ'], 0],
+        ['Workers were…', 'ಕಾರ್ಮಿಕ?', ['Brave miners', 'Soldiers', 'Sailors'], ['ಧೈರ್ಯಶಾಲಿ ಗಣಿಗಾರ', 'ಸೈನಿಕ', 'ನಾವಿಕ'], 0],
       ],
       memorial: ["KGF Mining Heritage", "ಕೆಜಿಎಫ್ ಪರಂಪರೆ", "Kolar Gold Fields", "ಕೆಜಿಎಫ್", "Old mining shafts tell their story.", "ಹಳೆ ಗಣಿಗಳು.", "Kolar Gold Fields KGF"],
     })],
@@ -850,6 +1259,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["His math is at…", "ಮಠ?", ["Koppal", "Hubballi", "Mysuru"], ["ಕೊಪ್ಪಳ", "ಹುಬ್ಬಳ್ಳಿ", "ಮೈಸೂರು"], 0],
         ["He gave children…", "ಮಕ್ಕಳಿಗೆ?", ["Food & education", "Toys", "Coins"], ["ಊಟ ಶಿಕ್ಷಣ", "ಆಟಿಕೆ", "ನಾಣ್ಯ"], 0],
+      
+        ['His math is at?', 'ಮಠ?', ['Koppal', 'Hampi', 'Bidar'], ['ಕೊಪ್ಪಳ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['He served children with?', 'ಮಕ್ಕಳಿಗೆ?', ['Food & education', 'Toys', 'Coins'], ['ಊಟ-ಶಿಕ್ಷಣ', 'ಆಟಿಕೆ', 'ನಾಣ್ಯ'], 0],
+        ['He was a saint of…', 'ಪಂಥ?', ['Lingayat', 'Vaishnava', 'Jain'], ['ಲಿಂಗಾಯತ', 'ವೈಷ್ಣವ', 'ಜೈನ'], 0],
+        ['Annual fair is called…', 'ಜಾತ್ರೆ?', ['Gavisiddeshwara Jatra', 'Mysuru Dasara', 'Hampi Utsava'], ['ಗವಿಸಿದ್ಧೇಶ್ವರ ಜಾತ್ರೆ', 'ಮೈಸೂರು ದಸರಾ', 'ಹಂಪಿ ಉತ್ಸವ'], 0],
+        ['Math built around a…', 'ಯಾವುದರ ಸುತ್ತ?', ['Cave', 'Lake', 'Forest'], ['ಗವಿ', 'ಸರೋವರ', 'ಕಾಡು'], 0],
+        ['Region?', 'ಪ್ರದೇಶ?', ['Kalyana Karnataka', 'Malnad', 'Coast'], ['ಕಲ್ಯಾಣ ಕರ್ನಾಟಕ', 'ಮಲೆನಾಡು', 'ಕರಾವಳಿ'], 0],
+        ['People love him for…', 'ಪ್ರೀತಿ?', ['Selfless service', 'Wars', 'Wealth'], ['ನಿಸ್ವಾರ್ಥ ಸೇವೆ', 'ಯುದ್ಧ', 'ಸಂಪತ್ತು'], 0],
+        ["'Gavi' means…", 'ಗವಿ?', ['Cave', 'River', 'Hill'], ['ಗುಹೆ', 'ನದಿ', 'ಬೆಟ್ಟ'], 0],
       ],
       memorial: ["Gavi Math", "ಗವಿ ಮಠ", "Koppal", "ಕೊಪ್ಪಳ", "A spiritual centre carved into ancient caves.", "ಗವಿಗಳ ಆಧ್ಯಾತ್ಮಿಕ ಕೇಂದ್ರ.", "Gavi Math Koppal"],
     })],
@@ -871,6 +1289,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Nicknamed…", "ಅಡ್ಡಹೆಸರು?", ["Mandya Gandhi", "Mandya Tiger", "Mandya King"], ["ಮಂಡ್ಯ ಗಾಂಧಿ", "ಹುಲಿ", "ರಾಜ"], 0],
         ["Helped which crop?", "ಬೆಳೆ?", ["Sugarcane", "Tea", "Cotton"], ["ಕಬ್ಬು", "ಚಹಾ", "ಹತ್ತಿ"], 0],
+      
+        ['Nickname?', 'ಅಡ್ಡಹೆಸರು?', ['Mandya Gandhi', 'Mandya Tiger', 'Mandya King'], ['ಮಂಡ್ಯ ಗಾಂಧಿ', 'ಹುಲಿ', 'ರಾಜ'], 0],
+        ['Crop he supported?', 'ಬೆಳೆ?', ['Sugarcane', 'Tea', 'Cotton'], ['ಕಬ್ಬು', 'ಚಹಾ', 'ಹತ್ತಿ'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Mandya', 'Mysuru', 'Bidar'], ['ಮಂಡ್ಯ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['He was a follower of…', 'ಅನುಯಾಯಿ?', ['Gandhi', 'Subhash', 'Nehru'], ['ಗಾಂಧಿ', 'ಸುಭಾಷ್', 'ನೆಹರೂ'], 0],
+        ['Helped which class?', 'ಯಾವ ವರ್ಗ?', ['Farmers', 'Soldiers', 'Traders'], ['ರೈತರು', 'ಸೈನಿಕ', 'ವ್ಯಾಪಾರಿ'], 0],
+        ['Worked for sugar…', 'ಕಾರ್ಖಾನೆ?', ['Factory cooperative', 'Hospital', 'School'], ['ಸಹಕಾರಿ ಸಕ್ಕರೆ ಕಾರ್ಖಾನೆ', 'ಆಸ್ಪತ್ರೆ', 'ಶಾಲೆ'], 0],
+        ['Region around river?', 'ನದಿ?', ['Kaveri', 'Krishna', 'Tunga'], ['ಕಾವೇರಿ', 'ಕೃಷ್ಣಾ', 'ತುಂಗಾ'], 0],
+        ['He is remembered as friend of…', 'ಸ್ನೇಹಿತ?', ['Farmers', 'Kings', 'Poets'], ['ರೈತರು', 'ರಾಜ', 'ಕವಿ'], 0],
       ],
       memorial: ["Shankaregowda Memorial", "ಶಂಕರೇಗೌಡ ಸ್ಮಾರಕ", "Mandya town", "ಮಂಡ್ಯ", "Statue and hall in central Mandya.", "ಮಂಡ್ಯದ ಪ್ರತಿಮೆ.", "KV Shankaregowda Mandya"],
     })],
@@ -892,6 +1319,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["The fort is in…", "ಎಲ್ಲಿ?", ["Raichur", "Bidar", "Hampi"], ["ರಾಯಚೂರು", "ಬೀದರ್", "ಹಂಪಿ"], 0],
         ["Built on a…", "ಎಲ್ಲಿ?", ["Rocky hill", "Beach", "Forest"], ["ಬಂಡೆಗುಡ್ಡ", "ಕಡಲತೀರ", "ಕಾಡು"], 0],
+      
+        ['Fort located in?', 'ಎಲ್ಲಿ?', ['Raichur', 'Bidar', 'Hampi'], ['ರಾಯಚೂರು', 'ಬೀದರ್', 'ಹಂಪಿ'], 0],
+        ['Built on what land?', 'ಸ್ಥಳ?', ['Rocky hill', 'Beach', 'Forest'], ['ಬಂಡೆಗುಡ್ಡ', 'ಕಡಲತೀರ', 'ಕಾಡು'], 0],
+        ['Region?', 'ಪ್ರದೇಶ?', ['Kalyana Karnataka', 'Coast', 'Malnad'], ['ಕಲ್ಯಾಣ ಕರ್ನಾಟಕ', 'ಕರಾವಳಿ', 'ಮಲೆನಾಡು'], 0],
+        ['Fort lies between two rivers…', 'ಎರಡು ನದಿ?', ['Krishna & Tungabhadra', 'Kaveri & Tunga', 'Sharavati & Kali'], ['ಕೃಷ್ಣ-ತುಂಗಭದ್ರ', 'ಕಾವೇರಿ-ತುಂಗ', 'ಶರಾವತಿ-ಕಾಳಿ'], 0],
+        ['Built mainly with…', 'ಯಾವುದರಿಂದ?', ['Stone', 'Mud', 'Wood'], ['ಕಲ್ಲು', 'ಮಣ್ಣು', 'ಮರ'], 0],
+        ['Was a centre of?', 'ಕೇಂದ್ರ?', ['Power & trade', 'Farming only', 'Schools'], ['ಶಕ್ತಿ-ವ್ಯಾಪಾರ', 'ಕೇವಲ ಕೃಷಿ', 'ಶಾಲೆ'], 0],
+        ['Many dynasties controlled it including…', 'ಯಾರ ನಿಯಂತ್ರಣ?', ['Vijayanagara', 'British', 'Mughals only'], ['ವಿಜಯನಗರ', 'ಬ್ರಿಟಿಷ್', 'ಕೇವಲ ಮೊಘಲ್'], 0],
+        ['Builders are called?', 'ನಿರ್ಮಾಪಕರು?', ['Heroes', 'Sailors', 'Pilots'], ['ವೀರರು', 'ನಾವಿಕ', 'ಪೈಲಟ್'], 0],
       ],
       memorial: ["Raichur Fort", "ರಾಯಚೂರು ಕೋಟೆ", "Raichur city", "ರಾಯಚೂರು", "A massive medieval fort.", "ಮಧ್ಯಯುಗದ ಕೋಟೆ.", "Raichur Fort Karnataka"],
     })],
@@ -913,6 +1349,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He ruled…", "ಆಳ್ವಿಕೆ?", ["Magadi", "Hampi", "Bidar"], ["ಮಾಗಡಿ", "ಹಂಪಿ", "ಬೀದರ್"], 0],
         ["Grandfather founded…", "ಅಜ್ಜ?", ["Bengaluru", "Mysuru", "Hubballi"], ["ಬೆಂಗಳೂರು", "ಮೈಸೂರು", "ಹುಬ್ಬಳ್ಳಿ"], 0],
+      
+        ['He ruled?', 'ಆಳ್ವಿಕೆ?', ['Magadi', 'Hampi', 'Bidar'], ['ಮಾಗಡಿ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['Grandfather founded…', 'ಅಜ್ಜ?', ['Bengaluru', 'Mysuru', 'Hubballi'], ['ಬೆಂಗಳೂರು', 'ಮೈಸೂರು', 'ಹುಬ್ಬಳ್ಳಿ'], 0],
+        ['He built four famous…', 'ನಾಲ್ಕು?', ['Watch towers', 'Palaces', 'Bridges'], ['ಗೋಪುರಗಳು', 'ಅರಮನೆ', 'ಸೇತುವೆ'], 0],
+        ['District today?', 'ಜಿಲ್ಲೆ?', ['Ramanagara', 'Mysuru', 'Bidar'], ['ರಾಮನಗರ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Empire he served?', 'ಸಾಮ್ರಾಜ್ಯ?', ['Vijayanagara', 'Mughal', 'British'], ['ವಿಜಯನಗರ', 'ಮೊಘಲ್', 'ಬ್ರಿಟಿಷ್'], 0],
+        ['Towers helped to…', 'ಗೋಪುರ?', ['Mark city limits', 'Cook food', 'Store water'], ['ನಗರದ ಗಡಿ', 'ಅಡುಗೆ', 'ನೀರು ಸಂಗ್ರಹ'], 0],
+        ['Magadi today is known for?', 'ಪ್ರಸಿದ್ಧಿ?', ['History & temples', 'Beaches', 'Snow'], ['ಇತಿಹಾಸ-ದೇವಾಲಯ', 'ಕಡಲತೀರ', 'ಹಿಮ'], 0],
+        ['He continued legacy of?', 'ಪರಂಪರೆ?', ['Original Kempegowda', 'Tipu', 'Krishnadevaraya'], ['ಮೂಲ ಕೆಂಪೇಗೌಡ', 'ಟಿಪ್ಪು', 'ಕೃಷ್ಣದೇವರಾಯ'], 0],
       ],
       memorial: ["Savandurga Fort", "ಸಾವನದುರ್ಗ ಕೋಟೆ", "Magadi, Ramanagara", "ಮಾಗಡಿ", "Massive monolithic hill forts.", "ಬೆಟ್ಟದ ಕೋಟೆ.", "Savandurga Magadi Karnataka"],
     })],
@@ -934,6 +1379,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["His math is at…", "ಮಠ?", ["Siddaganga", "Hampi", "Bidar"], ["ಸಿದ್ಧಗಂಗೆ", "ಹಂಪಿ", "ಬೀದರ್"], 0],
         ["He gave children…", "?", ["Free food & education", "Money only", "Toys"], ["ಊಟ-ಶಿಕ್ಷಣ", "ಹಣ", "ಆಟಿಕೆ"], 0],
+      
+        ['Math name?', 'ಮಠ?', ['Siddaganga', 'Hampi', 'Bidar'], ['ಸಿದ್ಧಗಂಗೆ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['He gave children?', 'ಮಕ್ಕಳಿಗೆ?', ['Free food & education', 'Money only', 'Toys'], ['ಊಟ-ಶಿಕ್ಷಣ', 'ಹಣ', 'ಆಟಿಕೆ'], 0],
+        ['Nickname?', 'ಬಿರುದು?', ['Walking God', 'Tiger', 'Lion'], ['ನಡೆದಾಡುವ ದೇವರು', 'ಹುಲಿ', 'ಸಿಂಹ'], 0],
+        ['He lived to age over?', 'ವಯಸ್ಸು?', ['100', '60', '80'], ['೧೦೦', '೬೦', '೮೦'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Tumakuru', 'Mysuru', 'Bidar'], ['ತುಮಕೂರು', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Awarded Padma…', 'ಪ್ರಶಸ್ತಿ?', ['Vibhushan', 'Shri', 'No award'], ['ವಿಭೂಷಣ', 'ಶ್ರೀ', 'ಇಲ್ಲ'], 0],
+        ['Tradition?', 'ಪರಂಪರೆ?', ['Lingayat', 'Jain', 'Sikh'], ['ಲಿಂಗಾಯತ', 'ಜೈನ', 'ಸಿಖ್'], 0],
+        ['Trikala…', 'ತ್ರಿಕಾಲ?', ['Dasoha', 'Yoga', 'Yagna'], ['ದಾಸೋಹ', 'ಯೋಗ', 'ಯಜ್ಞ'], 0],
       ],
       memorial: ["Siddaganga Math", "ಸಿದ್ಧಗಂಗಾ ಮಠ", "Siddaganga, Tumakuru", "ಸಿದ್ಧಗಂಗೆ", "A huge gurukula and free school.", "ಬೃಹತ್ ಗುರುಕುಲ.", "Siddaganga Math Tumakuru"],
     })],
@@ -955,6 +1409,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Which temple did he found?", "ಯಾವ ದೇವಾಲಯ?", ["Udupi Krishna", "Hampi", "Belur"], ["ಉಡುಪಿ ಕೃಷ್ಣ", "ಹಂಪಿ", "ಬೇಲೂರು"], 0],
         ["Philosophy?", "ತತ್ವ?", ["Dvaita", "Advaita", "Yoga"], ["ದ್ವೈತ", "ಅದ್ವೈತ", "ಯೋಗ"], 0],
+      
+        ['He founded which philosophy?', 'ತತ್ವ?', ['Dvaita', 'Advaita', 'Yoga'], ['ದ್ವೈತ', 'ಅದ್ವೈತ', 'ಯೋಗ'], 0],
+        ['Famous Krishna temple at?', 'ದೇವಾಲಯ?', ['Udupi', 'Hampi', 'Belur'], ['ಉಡುಪಿ', 'ಹಂಪಿ', 'ಬೇಲೂರು'], 0],
+        ['He lived in century?', 'ಶತಮಾನ?', ['13th', '18th', '20th'], ['೧೩ನೇ', '೧೮ನೇ', '೨೦ನೇ'], 0],
+        ['Real name?', 'ನಿಜ ಹೆಸರು?', ['Vasudeva', 'Naranappa', 'Basava'], ['ವಾಸುದೇವ', 'ನಾರಣಪ್ಪ', 'ಬಸವ'], 0],
+        ['Birthplace?', 'ಜನ್ಮಸ್ಥಳ?', ['Pajaka', 'Hampi', 'Bidar'], ['ಪಾಜಕ', 'ಹಂಪಿ', 'ಬೀದರ್'], 0],
+        ['He composed in?', 'ಭಾಷೆ?', ['Sanskrit', 'Tamil', 'Persian'], ['ಸಂಸ್ಕೃತ', 'ತಮಿಳು', 'ಪರ್ಷಿಯನ್'], 0],
+        ['Eight maths he set up are called?', 'ಎಂಟು ಮಠ?', ['Ashta Mathas', 'Vachanas', 'Dasaru'], ['ಅಷ್ಟ ಮಠಗಳು', 'ವಚನ', 'ದಾಸರು'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Udupi', 'Mysuru', 'Bidar'], ['ಉಡುಪಿ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
       ],
       memorial: ["Udupi Sri Krishna Temple", "ಉಡುಪಿ ಕೃಷ್ಣ ದೇವಾಲಯ", "Udupi town", "ಉಡುಪಿ", "Famous for the unique 'Kanakana Kindi' window.", "'ಕನಕನ ಕಿಂಡಿ'.", "Udupi Sri Krishna Matha"],
     })],
@@ -976,6 +1439,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Dance he revived?", "ನೃತ್ಯ?", ["Yakshagana", "Kathak", "Odissi"], ["ಯಕ್ಷಗಾನ", "ಕಥಕ್", "ಒಡಿಸ್ಸಿ"], 0],
         ["He won the…", "ಪ್ರಶಸ್ತಿ?", ["Jnanpith", "Oscar", "Grammy"], ["ಜ್ಞಾನಪೀಠ", "ಆಸ್ಕರ್", "ಗ್ರ್ಯಾಮಿ"], 0],
+      
+        ['Dance form he revived?', 'ನೃತ್ಯ?', ['Yakshagana', 'Kathak', 'Odissi'], ['ಯಕ್ಷಗಾನ', 'ಕಥಕ್', 'ಒಡಿಸ್ಸಿ'], 0],
+        ['Award he won?', 'ಪ್ರಶಸ್ತಿ?', ['Jnanpith', 'Oscar', 'Grammy'], ['ಜ್ಞಾನಪೀಠ', 'ಆಸ್ಕರ್', 'ಗ್ರ್ಯಾಮಿ'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Uttara Kannada', 'Mysuru', 'Bidar'], ['ಉತ್ತರ ಕನ್ನಡ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Famous novel?', 'ಕಾದಂಬರಿ?', ['Mookajjiya Kanasugalu', 'Hamsageete', 'Both'], ['ಮೂಕಜ್ಜಿಯ ಕನಸುಗಳು', 'ಹಂಸಗೀತೆ', 'ಎರಡೂ'], 0],
+        ['He was called walking…', 'ನಡೆದಾಡುವ?', ['Encyclopedia', 'King', 'Tiger'], ['ವಿಶ್ವಕೋಶ', 'ರಾಜ', 'ಹುಲಿ'], 0],
+        ['Born in year?', 'ಜನ್ಮ?', ['1902', '1850', '1947'], ['೧೯೦೨', '೧೮೫೦', '೧೯೪೭'], 0],
+        ['Died in year?', 'ಮರಣ?', ['1997', '1947', '2010'], ['೧೯೯೭', '೧೯೪೭', '೨೦೧೦'], 0],
+        ['He wrote in language?', 'ಭಾಷೆ?', ['Kannada', 'Telugu', 'Hindi'], ['ಕನ್ನಡ', 'ತೆಲುಗು', 'ಹಿಂದಿ'], 0],
       ],
       memorial: ["Yakshagana Kendra", "ಯಕ್ಷಗಾನ ಕೇಂದ್ರ", "Saligrama, near Kundapura", "ಸಾಲಿಗ್ರಾಮ", "A folk-art centre he founded.", "ಯಕ್ಷಗಾನ ಕೇಂದ್ರ.", "Yakshagana Kendra Saligrama"],
     })],
@@ -997,6 +1469,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["Father of…", "ಪಿತಾಮಹ?", ["Carnatic music", "Pop", "Cinema"], ["ಕರ್ನಾಟಕ ಸಂಗೀತ", "ಪಾಪ್", "ಸಿನಿಮಾ"], 0],
         ["He lived during…", "ಸಾಮ್ರಾಜ್ಯ?", ["Vijayanagara", "British rule", "Mauryan"], ["ವಿಜಯನಗರ", "ಬ್ರಿಟಿಷ್", "ಮೌರ್ಯ"], 0],
+      
+        ['Father of which music?', 'ಸಂಗೀತ?', ['Carnatic', 'Hindustani', 'Western'], ['ಕರ್ನಾಟಕ', 'ಹಿಂದೂಸ್ತಾನಿ', 'ಪಾಶ್ಚಾತ್ಯ'], 0],
+        ['He lived during?', 'ಸಾಮ್ರಾಜ್ಯ?', ['Vijayanagara', 'British', 'Mauryan'], ['ವಿಜಯನಗರ', 'ಬ್ರಿಟಿಷ್', 'ಮೌರ್ಯ'], 0],
+        ['Number of compositions (legend)?', 'ಎಷ್ಟು ರಚನೆ?', ['Lakhs', 'Tens', 'Hundreds'], ['ಲಕ್ಷಗಳು', 'ಹತ್ತಾರು', 'ನೂರಾರು'], 0],
+        ['Real name?', 'ನಿಜ ಹೆಸರು?', ['Srinivasa Nayaka', 'Naranappa', 'Basava'], ['ಶ್ರೀನಿವಾಸ ನಾಯಕ', 'ನಾರಣಪ್ಪ', 'ಬಸವ'], 0],
+        ['Wealthy profession before sainthood?', 'ವೃತ್ತಿ?', ['Jeweller', 'Farmer', 'Soldier'], ['ಚಿನ್ನದ ವ್ಯಾಪಾರಿ', 'ರೈತ', 'ಸೈನಿಕ'], 0],
+        ['Wrote in language?', 'ಭಾಷೆ?', ['Kannada', 'Tamil', 'Persian'], ['ಕನ್ನಡ', 'ತಮಿಳು', 'ಪರ್ಷಿಯನ್'], 0],
+        ['Belonged to which tradition?', 'ಪರಂಪರೆ?', ['Haridasa', 'Lingayat', 'Jain'], ['ಹರಿದಾಸ', 'ಲಿಂಗಾಯತ', 'ಜೈನ'], 0],
+        ['Devotee of which deity?', 'ಭಕ್ತ?', ['Vitthala', 'Shiva', 'Surya'], ['ವಿಠ್ಠಲ', 'ಶಿವ', 'ಸೂರ್ಯ'], 0],
       ],
       memorial: ["Purandara Mantapa", "ಪುರಂದರ ಮಂಟಪ", "Hampi, Vijayanagara", "ಹಂಪಿ", "A small mantapa by the Tungabhadra.", "ತುಂಗಭದ್ರಾ ತೀರದ ಮಂಟಪ.", "Purandara Mantapa Hampi"],
     })],
@@ -1018,6 +1499,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He loved most…", "ಪ್ರಿಯ?", ["Music", "War", "Hunting"], ["ಸಂಗೀತ", "ಯುದ್ಧ", "ಬೇಟೆ"], 0],
         ["He ruled…", "?", ["Bijapur", "Bidar", "Bengaluru"], ["ಬಿಜಾಪುರ", "ಬೀದರ್", "ಬೆಂಗಳೂರು"], 0],
+      
+        ['He ruled?', 'ಆಳ್ವಿಕೆ?', ['Bijapur', 'Bidar', 'Bengaluru'], ['ಬಿಜಾಪುರ', 'ಬೀದರ್', 'ಬೆಂಗಳೂರು'], 0],
+        ['He loved most?', 'ಪ್ರಿಯ?', ['Music', 'War', 'Hunting'], ['ಸಂಗೀತ', 'ಯುದ್ಧ', 'ಬೇಟೆ'], 0],
+        ['His famous book?', 'ಗ್ರಂಥ?', ['Kitab-i-Nauras', 'Vachana', 'Quran'], ['ಕಿತಾಬ್-ಇ-ನವರಸ್', 'ವಚನ', 'ಖುರಾನ್'], 0],
+        ['He was nicknamed?', 'ಬಿರುದು?', ['Jagad Guru', 'Tiger', 'Lion'], ['ಜಗದ್ಗುರು', 'ಹುಲಿ', 'ಸಿಂಹ'], 0],
+        ['Dynasty?', 'ವಂಶ?', ['Adil Shahi', 'Mughal', 'Tuluva'], ['ಆದಿಲ್ ಶಾಹಿ', 'ಮೊಘಲ್', 'ತುಳುವ'], 0],
+        ['He respected which religions?', 'ಗೌರವ?', ['All', 'Only one', 'None'], ['ಎಲ್ಲ', 'ಒಂದೇ', 'ಯಾವುದೂ ಇಲ್ಲ'], 0],
+        ['Famous monument near him?', 'ಸ್ಮಾರಕ?', ['Gol Gumbaz', 'Hampi', 'Belur'], ['ಗೋಲ್ ಗುಂಬಜ್', 'ಹಂಪಿ', 'ಬೇಲೂರು'], 0],
+        ['Capital city?', 'ರಾಜಧಾನಿ?', ['Bijapur', 'Bidar', 'Hampi'], ['ಬಿಜಾಪುರ', 'ಬೀದರ್', 'ಹಂಪಿ'], 0],
       ],
       memorial: ["Gol Gumbaz", "ಗೋಲ್ ಗುಂಬಜ್", "Vijayapura", "ವಿಜಯಪುರ", "World-famous domed mausoleum.", "ವಿಶ್ವಪ್ರಸಿದ್ಧ ಗುಂಬಜ್.", "Gol Gumbaz Vijayapura"],
     })],
@@ -1039,6 +1529,15 @@ export const DISTRICTS: District[] = [
       quiz: [
         ["He ruled…", "?", ["Shorapur", "Mysuru", "Hampi"], ["ಶೋರಾಪುರ", "ಮೈಸೂರು", "ಹಂಪಿ"], 0],
         ["He fought against…", "ಯಾರ ವಿರುದ್ಧ?", ["British", "Mughals", "Marathas"], ["ಬ್ರಿಟಿಷರು", "ಮೊಘಲರು", "ಮರಾಠರು"], 0],
+      
+        ['He ruled?', 'ಆಳ್ವಿಕೆ?', ['Shorapur', 'Mysuru', 'Hampi'], ['ಶೋರಾಪುರ', 'ಮೈಸೂರು', 'ಹಂಪಿ'], 0],
+        ['Fought against?', 'ವಿರುದ್ಧ?', ['British', 'Mughals', 'Marathas'], ['ಬ್ರಿಟಿಷರು', 'ಮೊಘಲರು', 'ಮರಾಠರು'], 0],
+        ['Fort on a?', 'ಕೋಟೆ?', ['Hilltop', 'Beach', 'River'], ['ಬೆಟ್ಟ', 'ಕಡಲತೀರ', 'ನದಿ'], 0],
+        ['District?', 'ಜಿಲ್ಲೆ?', ['Yadgir', 'Mysuru', 'Bidar'], ['ಯಾದಗಿರಿ', 'ಮೈಸೂರು', 'ಬೀದರ್'], 0],
+        ['Mentor was?', 'ಗುರು?', ['Meadows Taylor', 'Tipu', 'Hyder'], ['ಮೆಡೋಸ್ ಟೇಲರ್', 'ಟಿಪ್ಪು', 'ಹೈದರ್'], 0],
+        ['He revolted in 1857 era?', '೧೮೫೭?', ['Yes', 'No', 'Unknown'], ['ಹೌದು', 'ಇಲ್ಲ', 'ತಿಳಿದಿಲ್ಲ'], 0],
+        ['Died bravely as a…', 'ಮರಣ?', ['Martyr', 'Trader', 'Saint'], ['ಹುತಾತ್ಮ', 'ವ್ಯಾಪಾರಿ', 'ಸಂತ'], 0],
+        ['Region?', 'ಪ್ರದೇಶ?', ['Kalyana Karnataka', 'Coast', 'Malnad'], ['ಕಲ್ಯಾಣ ಕರ್ನಾಟಕ', 'ಕರಾವಳಿ', 'ಮಲೆನಾಡು'], 0],
       ],
       memorial: ["Shorapur Fort", "ಶೋರಾಪುರ ಕೋಟೆ", "Shorapur, Yadgir", "ಶೋರಾಪುರ", "Hilltop fort that witnessed his brave revolt.", "ಬೆಟ್ಟದ ಕೋಟೆ.", "Shorapur Fort Yadgir"],
     })],
