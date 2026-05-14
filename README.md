@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+#Namma-kathey
 
 TODO: Document your project here
