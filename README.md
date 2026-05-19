@@ -16,17 +16,11 @@ The app lets users read regional stories in a simple, distraction‑free reader 
 🚀 Technologies Used
 
 Kotlin
-
 Android Studio
-
 Android Jetpack Components (if used ViewModel / Lifecycle)
-
 XML Layouts (for story list and reader screens)
-
 RecyclerView or ListView (for story list)
-
 Gradle build system
-
 Assets folder storage for .txt or .json stories
 
 ❓ Problem Statement
@@ -89,21 +83,16 @@ Click the ▶ Run button
 📸 Screenshots
 
 Story list screen (Kannada titles)
-
 Story reader screen (full‑text display in Kannada)
-
 Any splash / category screen you have
 
 🔮 Future Enhancements
 
 Add bookmarking (store last‑read story in SharedPreferences)
-
 Introduce dark mode for late‑night reading
-
 Support multiple fonts / text‑size options
 
 Add a search bar to search story titles in Kannada
-
 Compress and organize stories in JSON inside assets for better structure
 
 👨‍💻 Author
