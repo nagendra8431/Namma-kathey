@@ -185,9 +185,8 @@ text
 ![Quiz Screen](screenshots/quiz_screen.png)
 If you have a demo video or APK link, add:
 
-text
-🎥 Demo Video: [Link to your video]  
-📱 APK Download: [Link to your APK]
+text 
+📱 APK Download: [https://github.com/nagendra8431/Namma-kathey/blob/main/namma-kathey-source.zip]
 You can also reference the figure style from your report:
 
 Figure 1: Overall interface of the Namma Kathey Android app showcasing Karnataka district-wise heroes and GenAI-based content presentation
